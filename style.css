@@ -1,0 +1,63 @@
+body {
+    background-color: lightblue;
+}
+.container {
+    max-width: 400px;
+    margin: 200px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    box-shadow: 2px 10px 10px rgba(0, 0,0,0.2);
+}
+h1 {
+    margin-top: 0;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-size: large;
+    font-weight: 600px;
+    margin-bottom: 5px;
+    color: black;
+}
+input[type="number"],select {
+    width: 95%;
+    padding: 10px;
+    border: none;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0,0,0.2);
+    margin-bottom: 10px;
+}
+input[type="number"]:focus,select:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px lightskyblue;
+}
+select {
+    width: 100%;
+}
+input[type="submit"] {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    transition: backgound-color 0.s ease;
+}
+input[type="submit"]:hover {
+    background-color: blue;
+}
+#result {
+    font-weight: bold;
+    margin-top: 20px;
+    color: blue;
+}
